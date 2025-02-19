@@ -1,0 +1,1 @@
+export const acceptedExtensions =["txt","jsx","tsx","ts","js"]

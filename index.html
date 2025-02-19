@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@datavis-tech/codemirror-6-prerelease@5.0.0/codemirror.next/legacy-modes/style/codemirror.css" />
+    <title>File Tree Structure</title>
+    <script src="scripts/index.ts" type="module"></script>
+  </head>
+  <body class="main-container">
+    <div class="root">
+      <div class="directories">
+        <h6 class="heading">Explorer</h6>
+        <button id="create-folder-button" class="createbutton">
+          <img src="images/add.svg"/>
+          <span class="buttonText">create new root folder</span>
+        </button>
+        <div id="root-container" class="root-container">
+        </div>
+      </div>
+      <div id="content-container" class="content">
+        <div id="active-file-name" class="active-file-name"></div>
+        <div id="editor" class="editor"></div>
+      </div>
+      
+    </div>
+  </body>
+</html>

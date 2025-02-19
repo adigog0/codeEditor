@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "@codemirror/lang-javascript": "^6.1.6",
+    "@types/codemirror": "^5.60.7",
+    "codemirror": "^6.0.1",
+    "parcel": "^2.8.3"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
